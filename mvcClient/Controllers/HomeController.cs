@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
+using IdentityModel.Client;
 using Microsoft.AspNetCore.Mvc;
 using mvcClient.Models;
+using mvcClient.Services;
 using Newtonsoft.Json;
 
 namespace mvcClient.Controllers;
@@ -8,17 +10,17 @@ namespace mvcClient.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly ITokenService _tokenService;
+    public HomeController(ILogger<HomeController> logger, ITokenService tokenService)
     {
         _logger = logger;
+        _tokenService = tokenService;
     }
 
     public IActionResult Index()
     {
         return View();
     }
-
     public IActionResult Privacy()
     {
         return View();
@@ -36,6 +38,8 @@ public class HomeController : Controller
         var data = new List<WeatherData>();
         using (var client = new HttpClient())
         {
+            var tokenResponse = await _tokenService.GetToken("weatherapi.read");
+            client.SetBearerToken(tokenResponse.AccessToken);
             var result = client.GetAsync("https://localhost:5445/weatherforecast").Result;
             if (result.IsSuccessStatusCode)
             {

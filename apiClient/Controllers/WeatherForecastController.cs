@@ -22,7 +22,7 @@ public class WeatherForecastController : ControllerBase
 
 
 
-    //[Authorize]
+    [Authorize]
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {

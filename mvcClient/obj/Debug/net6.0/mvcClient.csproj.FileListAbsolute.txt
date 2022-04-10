@@ -5,7 +5,6 @@ C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\mvcClient.deps.json
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\mvcClient.runtimeconfig.json
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\mvcClient.dll
-C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\ref\mvcClient.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\mvcClient.pdb
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\MessagePack.dll
@@ -230,3 +229,12 @@ C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\obj\Debug\net
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\obj\Debug\net6.0\ref\mvcClient.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\obj\Debug\net6.0\mvcClient.pdb
 C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\obj\Debug\net6.0\mvcClient.genruntimeconfig.cache
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\obj\Debug\net6.0\refint\mvcClient.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\mvcClient\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

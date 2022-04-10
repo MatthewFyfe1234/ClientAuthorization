@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6058fdba-395c-4dea-95fa-a16b91ae7385": {
+      "ProjectGuid": "6058fdba-395c-4dea-95fa-a16b91ae7385",
+      "DisplayName": "apiClient",
+      "ColorIndex": 0
+    },
+    "e5e50bd0-312e-438f-a806-44deb691ca6c": {
+      "ProjectGuid": "e5e50bd0-312e-438f-a806-44deb691ca6c",
+      "DisplayName": "mvcClient",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

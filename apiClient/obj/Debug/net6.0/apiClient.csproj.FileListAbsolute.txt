@@ -4,7 +4,6 @@ C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\apiClient.deps.json
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\apiClient.runtimeconfig.json
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\apiClient.dll
-C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\ref\apiClient.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\apiClient.pdb
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -32,3 +31,4 @@ C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\apiClient\obj\Debug\net6.0\refint\apiClient.dll
