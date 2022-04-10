@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
 using IdentityModel.Client;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using mvcClient.Models;
 using mvcClient.Services;
@@ -48,9 +50,27 @@ public class HomeController : Controller
                 return View(data);
             }
             else
-            {
                 throw new Exception("Unauthorised");
+        };
+    }
+    [HttpGet]
+    [Authorize]
+    public async Task<IActionResult> WeatherAuthCode()
+    {
+        var data = new List<WeatherData>();
+        using (var client = new HttpClient())
+        {
+            var token = await HttpContext.GetTokenAsync("access_token");
+            client.SetBearerToken(token);
+            var result = client.GetAsync("https://localhost:5445/weatherforecast").Result;
+            if (result.IsSuccessStatusCode)
+            {
+                var model = result.Content.ReadAsStringAsync().Result;
+                data = JsonConvert.DeserializeObject<List<WeatherData>>(model);
+                return View(data);
             }
+            else
+                throw new Exception("Unauthorised");
         };
     }
 }

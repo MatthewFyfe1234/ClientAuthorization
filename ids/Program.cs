@@ -1,6 +1,7 @@
 using ids;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages();
 
 builder.Services.AddIdentityServer(options =>
 {
@@ -19,6 +20,9 @@ builder.Services.AddIdentityServer(options =>
 var app = builder.Build();
 app.UseIdentityServer();
 
-app.MapGet("/", () => "Identity server");
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthorization();
+app.MapRazorPages().RequireAuthorization();
 
 app.Run();

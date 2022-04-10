@@ -31,3 +31,6 @@ C:\Users\Dell Precision\source\repos\identityServerMerit\ids\obj\Debug\net6.0\id
 C:\Users\Dell Precision\source\repos\identityServerMerit\ids\obj\Debug\net6.0\ids.genruntimeconfig.cache
 C:\Users\Dell Precision\source\repos\identityServerMerit\ids\bin\Debug\net6.0\keys\is-signing-key-73857B7A11BE91B37B9D1A95E531E32E.json
 C:\Users\Dell Precision\source\repos\identityServerMerit\ids\obj\Debug\net6.0\refint\ids.dll
+C:\Users\Dell Precision\source\repos\identityServerMerit\ids\bin\Debug\net6.0\ids.staticwebassets.runtime.json
+C:\Users\Dell Precision\source\repos\identityServerMerit\ids\obj\Debug\net6.0\ids.RazorAssemblyInfo.cache
+C:\Users\Dell Precision\source\repos\identityServerMerit\ids\obj\Debug\net6.0\ids.RazorAssemblyInfo.cs

@@ -7,9 +7,9 @@ namespace ids
 
         public static IEnumerable<IdentityResource> IdentityResources => new[]
         {
-        new IdentityResources.OpenId(),
-        new IdentityResources.Profile(),
-        new IdentityResource
+            new IdentityResources.OpenId(),
+            new IdentityResources.Profile(),
+            new IdentityResource
             {
                 Name = "role",
                 UserClaims = new List<string> {"role"}
@@ -53,9 +53,9 @@ namespace ids
 
                 AllowedGrantTypes = GrantTypes.Code,
 
-                RedirectUris = {"https://localhost:5443/signin-oidc"},
-                FrontChannelLogoutUri = "https://localhost:5443/signout-oidc",
-                PostLogoutRedirectUris = {"https://localhost:5443/signout-callback-oidc"},
+                RedirectUris = {"https://localhost:7038/signin-oidc"},
+                FrontChannelLogoutUri = "https://localhost:7038/signout-oidc",
+                PostLogoutRedirectUris = {"https://localhost:7038/signout-callback-oidc"},
 
                 AllowOfflineAccess = true,
                 AllowedScopes = {"openid", "profile", "weatherapi.read"},
